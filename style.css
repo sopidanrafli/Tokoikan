@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: rgba(34, 228, 183, 0.374);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5bf1ff;
+    padding: 1rem 9%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index:999;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+}
+
+header .logo a{
+    color: #000;
+    font-weight: 500;
+}
+
+header .logo img{
+    width: 150px;
+}
+
+header .navbar a{
+    margin-right: 4rem;
+    text-decoration: none;
+    color: rgb(248, 17, 0);
+}
+
+#home{
+    background-image: url(./img/1236873519283835060.webp);
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home .text-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .text-content h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ff0000;
+    margin-top: 250px;
+}
+
+.container-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+}
+
+.menu h2{
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.menu{
+    padding: 10rem 20px;
+}
+
+.content-menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 50px 20px;
+    justify-content: center;
+}
+
+.card{
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 248, 248, 0.1);
+    overflow: hidden;
+    margin: auto;
+}
+.card a{
+    color: white;
+    text-decoration: none;
+}
+.card p{
+    color: white;
+}
+.card h3{
+    color: white;
+}
+.card img{
+    max-width: 100%;
+    width: 500px;
+    height: 20vh;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.details{
+    padding: 1rem;
+}
+
+
+#About.content-menu{
+    width: 10px;
+    height: 10px;
+}
+footer{
+    max-width: 100%;
+    width: 700px;
+    height: 100hv;
+    object-fit: contain;
+    object-position: center;
+}
+#about-us{
+    min-height: 100vh;
+    padding: 5rem;
+    background-color: white;
+}
+#about-us .about-title{
+    text-align: center;
+}
+.content-about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 9%;
+}
+#contact{
+    padding: 2rem 9%;
+    min-height: 50vh;
+}
+#contact .media-social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.media-social img{
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+}
